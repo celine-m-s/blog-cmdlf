@@ -62,14 +62,17 @@ ul {
 
 
 header {
-text-align: center;
+	text-align: center;
 }
 
 h1 a {
 	color: #FF6A5D;
-	line-height: 3em;
 	font-size: 4em;
 	font-family: Lobster, cursive;
+}
+
+h1 {
+	margin: 4em auto;
 }
 
 nav li {
