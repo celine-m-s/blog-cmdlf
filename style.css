@@ -1,0 +1,227 @@
+/*RESET*/
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+	nav li{
+		width: 150px;
+	}
+}
+
+@media (min-width: 990px) {
+	nav li{
+		width:183px;
+	}
+}
+
+p, a {
+	font-family: Josefin Sans,sans-serif;
+}
+
+/* ###############BODY#############################*/
+
+
+body{
+	background-image: url(large_leather/large_leather.png) 
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.img-responsive {
+	display:inline;
+}
+
+.fa {
+	line-height: 3em;
+	font-size: 1.5em;
+	border-radius:50%;
+	border-width: 1px;
+	background-color: #e8e4e1;
+	width: 2em;
+	height:2em;
+}
+
+.inline {
+	display:inline;
+}
+
+/* #################HEADER##########################*/
+
+
+header {
+text-align: center;
+}
+
+h1 {
+	color: #FF6A5D;
+	padding: 1em;
+	font-size: 4em;
+	font-family: Lobster, cursive;
+}
+
+nav li {
+	display: inline;
+	background-color: #d1c2bb;
+}
+
+nav li a {
+	font-family: Amatic SC, cursive; sans-serif;
+	font-size: 2em;
+}
+
+nav {
+	font-size: 1em;
+	padding-bottom: 2em;
+}
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
+.navbar.navbar-default{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	background-image: none;
+	background-color: #d1c2bb;
+	padding-bottom: 0;
+}
+
+
+/*#################SECTION#####################*/
+
+
+section h2 {
+	color: #754253;
+	margin: 0.5em auto;
+}
+
+.date {
+	font-family: Josefin Sans, sans-serif;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: Lobster, cursive;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+article {
+	margin-bottom: 1em;
+}
+
+/*#################ASIDE#####################*/
+
+.rs{
+	color: #626373;
+}
+
+section, aside {
+	margin:1em auto 2em auto;
+}
+
+aside .fa {
+	text-align: center;
+	line-height: 2em;
+}
+
+aside h3 {
+	padding: 1.5em 0 1em 0;
+}
+
+.barrerecherche{
+	padding: 3em 0;
+}
+
+h3 {
+	font-family: Lobster, cursive;
+}
+
+aside .blogroll {
+	color: #000000;
+}
+
+
+/*#################FOOTER####################*/
+
+footer{
+	text-align: center;
+	background-color: #e8e4e1; 
+	padding-top: 2em;
+}
+
+footer .fa {
+	padding: 0 1em;
+}
+
+footer ul {
+	padding-bottom: 1em;
+}
+
+
+/*################PAGE CATEGORIE#######################################*/
+
+
+.barrecategorie{
+	font-size: 2em;
+	background-color: #a7a7af;
+}
+
+
+
+
+
+/*#####################PAGE ARTICLE#####################################*/
+
+.commentaire{
+	padding:4em 0;
+}
+
+section .fa{
+	font-size: 1em;
+	line-height: 2em;
+	text-align: center;
+}
+
+article .fa {
+	font-size: 1em;
+	line-height: 2.2em;
+	padding: 0 0.5em;
+	position: absolute;
+	margin:1%;
+}
+
+.vousaimerez{
+	font-style: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
