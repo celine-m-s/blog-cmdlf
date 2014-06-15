@@ -13,12 +13,21 @@
 	}
 }
 
+
+/* ###############BODY#############################*/
+
 p, a {
 	font-family: Josefin Sans,sans-serif;
 }
 
-/* ###############BODY#############################*/
+a:hover {
+	color: #754253;
+}
 
+img:hover {
+	opacity: 0.8;
+	z-index: 10;
+}
 
 body{
 	background-image: url(large_leather/large_leather.png) 
@@ -42,6 +51,7 @@ ul {
 	background-color: #e8e4e1;
 	width: 2em;
 	height:2em;
+	z-index: 20;
 }
 
 .inline {
@@ -55,9 +65,9 @@ header {
 text-align: center;
 }
 
-h1 {
+h1 a {
 	color: #FF6A5D;
-	padding: 1em;
+	line-height: 3em;
 	font-size: 4em;
 	font-family: Lobster, cursive;
 }
